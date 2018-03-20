@@ -1,6 +1,6 @@
 # WeChatLuckyMoney
 微信（WeChat）随机红包金额分配算法
-
+微信随机红包的的算法已优化，金额可以超过平均值的二倍，此方法不再适用
 ```
 - (NSArray<NSNumber *> *)randomRedPacketsWithMoney:(int)totalMoney size:(int)size {
     
